@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Farmcact</string>
+    <string name="Supervisor">Supervisor</string>
+    <string name="Developer">Developer</string>
+    <string name="Iot">IoT Programmer</string>
+    <string name="Opik">Taufik R.K</string>
+    <string name="Database">Database Programmer</string>
+    <string name="Al">Rizaldi Rachmansyah</string>
+    <string name="Mobile">Mobile Programmer</string>
+    <string name="Uuy">Nurul Hidayah</string>
+    <string name="Supervisor1">Cahyana, S.T.,M.Kom.</string>
+    <string name="Supervisor2">Rizza I.M.M, S.Kom.,M.T.</string>
+    <string name="Status">Status     :</string>
+    <string name="Humidity">Humidity   :</string>
+    <string name="Tips">Tips       :</string>
+    <string name="Mycactus">My Cactus</string>
+    <string name="Library">Library</string>
+    <string name="Aboutdeveloper">About Developer</string>
+    <string name="history">History Data</string>
+    <string name="pot">pilih pot yang bisa dengan mudah kering dengan,
+        sistem drainase yang optimal. Hal ini bisa didapat dengan memilih pot yang terdapat banyak lubang di bawahnya</string>
+    <string name="media">media tanam yang diperlukan untuk menumbuhkan tanaman ini yaitu campurkan bahan – bahan seperti dedaunan kering, perlit, tanah, tanah yang gembur, sabut, pasir, dan batu paung. .</string>
+
+    <string name="siram">dalam menyiram kaktus, mulailah dari titik – titik yang kering. Meski tidak memerlukan banyak air, namun pastikan juga jangan sampai intensitas airnya berkurang</string>
+    <string name="sinar">Sebagai tumbuhan biasa, pastinya kaktus juga memerlukan paparan sinar matahari untuk membantu proses fotosintesis. Maka, posisikan tumbuhan ini di area yang terpapar sinar matahari langsung</string>
+
+</resources>

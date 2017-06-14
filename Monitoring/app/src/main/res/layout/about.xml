@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:background="#F3E0A7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Developer"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignTop="@+id/opik"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="67dp"
+            android:src="@drawable/rizaldi"
+            android:layout_marginStart="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/nurul"
+            android:layout_marginEnd="33dp"
+            android:layout_alignTop="@+id/circleImageView"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Supervisor"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/textView3"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/telu1"
+        android:id="@+id/circleImageView5"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/imageView" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/prodi"
+        android:id="@+id/imageView"
+        android:layout_alignTop="@+id/circleImageView5"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logotim"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginStart="18dp"
+        android:id="@+id/imageView3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView4"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/bucahyana"
+        android:layout_below="@+id/textView3"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_marginTop="17dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView3"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/burizza"
+        android:layout_alignTop="@+id/circleImageView4"
+        android:layout_alignEnd="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taufik R.K"
+        android:id="@+id/textView5"
+        android:gravity="center"
+        android:layout_marginTop="19dp"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_alignEnd="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignEnd="@+id/opik"
+        android:layout_marginBottom="53dp"
+        android:text="@string/Iot" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/opik"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/opik"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Database"
+        android:id="@+id/textView6"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignEnd="@+id/circleImageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Al"
+        android:id="@+id/textView11"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/circleImageView4"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Mobile"
+        android:id="@+id/textView7"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Uuy"
+        android:id="@+id/textView10"
+        android:gravity="center"
+        android:layout_below="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taufik R.K"
+        android:id="@+id/textView8"
+        android:layout_marginBottom="53dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignEnd="@+id/opik"
+        android:layout_toEndOf="@+id/circleImageView4"
+        android:layout_below="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Supervisor1"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/circleImageView4"
+        android:layout_alignStart="@+id/textView11"
+        android:id="@+id/textView12" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Supervisor2"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12"
+        android:layout_marginStart="13dp" />
+</RelativeLayout>

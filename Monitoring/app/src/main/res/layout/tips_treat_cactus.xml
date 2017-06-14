@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="43dp"
+        app:srcCompat="@drawable/pottanah"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/media"
+        android:id="@+id/textView14"
+        android:layout_above="@+id/imageView8"
+        android:layout_toEndOf="@+id/textView15"
+        android:layout_marginStart="27dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sinar"
+        android:textAlignment="center"
+        android:layout_alignBaseline="@+id/textView16"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_alignStart="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_marginBottom="11dp"
+        android:gravity="center"
+        android:text="@string/siram"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:text="@string/pot"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mediatanam"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="58dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="162dp"
+        app:srcCompat="@drawable/penyiram"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignEnd="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/terik"
+        android:layout_alignBottom="@+id/imageView7"
+        android:layout_alignEnd="@+id/imageView6" />
+</RelativeLayout>

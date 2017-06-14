@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "443463787727",
+    "firebase_url": "https://monitoringkelembaban-29bda.firebaseio.com",
+    "project_id": "monitoringkelembaban-29bda",
+    "storage_bucket": "monitoringkelembaban-29bda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443463787727:android:84be2fe3e0d26228",
+        "android_client_info": {
+          "package_name": "com.example.blacksmith.monitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443463787727-nrghs49rem1gc6jemoa0c72vpl1u41vb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blacksmith.monitoring",
+            "certificate_hash": "3d7cc26185db35e9de33e591d56e7c91fa6d1a30"
+          }
+        },
+        {
+          "client_id": "443463787727-kfudhjcqn3o19q53u4ip1r39s891aa3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY8nA6eJb9MxyhvDzw92XpkbjR-ugAsI4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443463787727-kfudhjcqn3o19q53u4ip1r39s891aa3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

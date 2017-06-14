@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iconstatus"
+        android:layout_alignParentLeft="true"
+        android:layout_width="75sp"
+        android:layout_height="75sp" />
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_toRightOf="@id/iconstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id :"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/tvnilai"
+        android:layout_toRightOf="@id/iconstatus"
+        android:layout_below="@+id/tvid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai kelembaban"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/tvstatus"
+        android:layout_toRightOf="@id/iconstatus"
+        android:layout_below="@+id/tvnilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status kelebaban"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/tvjam"
+        android:layout_below="@+id/tvstatus"
+        android:layout_toRightOf="@id/iconstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jam"
+        android:textSize="15sp"/>
+
+
+</RelativeLayout>
